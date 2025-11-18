@@ -1,8 +1,4 @@
-import { useState } from "react";
-
-function Count() {
-  const [count, setCount] = useState(0);
-
+function Count({ count, setCount }) {
   return (
     <div>
       <p>{count}</p>
