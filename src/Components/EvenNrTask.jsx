@@ -11,7 +11,7 @@ function IsEven() {
       setResultMessage("Vennligst skriv inn et gyldig tall.");
       return;
     }
-    setResultMessage(number % 2 === 0 ? "Tallet er partall." : "Tallet er oddetall,")
+    setResultMessage(number % 2 === 0 ? "Tallet er partall." : "Tallet er oddetall.");
     };
   return(
     <>

@@ -1,4 +1,4 @@
-
+import EvenNrTask from './Components/EvenNrTask';
 import Countdown from './Components/Countdown';
 import Count from './Components/Count'
 import { useState } from "react";
@@ -19,6 +19,8 @@ function App() {
       <h1>Measure converter oppgave</h1>
       <MeasureConverter></MeasureConverter>
       <hr></hr>
+      <h1>Even number oppgave</h1>
+      <EvenNrTask></EvenNrTask>
     </>
   )
 }
